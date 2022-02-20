@@ -9,5 +9,5 @@
         "classes": true
       }
     },
-    "extends": ["eslint", "prettier"]
+    "extends": ["prettier"]
 }

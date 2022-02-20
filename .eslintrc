@@ -1,4 +1,13 @@
 {
-    "parser": "@babel/eslint-parser",
+    "parser": "@babel/eslint-parser", 
+    "parserOptions": {
+      "ecmaVersion": 8,   
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true,
+        "impliedStrict": true,
+        "classes": true
+      }
+    },
     "extends": ["airbnb", "prettier"]
 }

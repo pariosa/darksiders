@@ -33,21 +33,19 @@ const Black = Styled.div`
 `;
 
 const Spacer = Styled.div`
-
-min-width:35%;
-max-width:35%;
-flex:1; 
+  min-width: 35%;
+  max-width: 35%;
+  flex: 1; 
 `;
 const BlackSpacer = Styled.div`
-
-min-width:35%;
-max-width:35%;
-flex:1;
-background-color: ${colors.black};
+  min-width: 35%;
+  max-width: 35%;
+  flex: 1;
+  background-color: ${colors.black};
 `;
 const White = Styled.div`
-flex-basis:fill;  
-background-color: ${colors.white};
+  flex-basis: fill;  
+  background-color: ${colors.white};
   color: ${colors.black}; 
 `;
 

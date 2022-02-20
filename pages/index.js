@@ -54,12 +54,12 @@ export default function Home({ isConnected }) {
   <Container>
     <Title>
       <BlackSpacer />
-      <NextLink href="https://www.facebook.com/dvrksydvrstalent/">
+      <NextLink passHref href="https://www.facebook.com/dvrksydvrstalent/">
           <Black>
             DVRK
           </Black>
         </NextLink>      
-        <NextLink href="https://www.facebook.com/dvrksydvrstalent/">
+        <NextLink passHref href="https://www.facebook.com/dvrksydvrstalent/">
           <White>
             SYDERS
           </White>

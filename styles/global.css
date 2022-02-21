@@ -2,4 +2,13 @@ body {
     font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
       'Arial', sans-serif;
     margin: 0 auto;
+    background-color: black;
+  }
+
+  html,
+  body,
+  body > div:first-child,
+  div#__next,
+  div#__next > div {
+    min-height: 100%;
   }

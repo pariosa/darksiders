@@ -5,7 +5,7 @@ import NextLink from 'next/link';
 
 const Container = Styled.body`
   margin:0px;
-  width: 100%;
+  width: 50vw;
   min-width:100%;
   display: grid;
   grid-template-columns:repeat(2, 100%); 
@@ -36,13 +36,13 @@ const Black = Styled.div`
 `;
 
 const Spacer = Styled.div`
-  min-width: 15%;
+  min-width: 0%;
   background-color: ${colors.white};
   max-width: 35%;
   flex: 1; 
 `;
 const BlackSpacer = Styled.div`
-  min-width: 15%;
+  min-width: 0%;
   max-width: 43%;
   flex: 1;
   background-color: ${colors.black};
